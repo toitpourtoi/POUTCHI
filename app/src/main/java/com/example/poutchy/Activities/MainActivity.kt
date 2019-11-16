@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.example.poutchy.Fragments.LevelsFragment
+import com.example.poutchy.Fragments.StoriesFragment
+import com.example.poutchy.Models.BD
 import com.example.poutchy.R
 
 
@@ -14,10 +16,22 @@ import com.example.poutchy.R
 
 class MainActivity : AppCompatActivity() {
     private var content: FrameLayout? = null
-
+    companion object {
+        var listBD = ArrayList<BD>()
+    }
+    fun initBD(){
+        listBD.add(BD("Mounir Tiab",R.drawable.bd1,4))
+        listBD.add(BD("Mounir Tiab",R.drawable.bd2,3))
+        listBD.add(BD("Mounir Tiab",R.drawable.bd1,3))
+        listBD.add(BD("Mounir Tiab",R.drawable.bd2,2))
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        if(listBD.isEmpty()){
+            initBD()
+        }
 
         val bottomNavigation = findViewById<MeowBottomNavigation>(R.id.bottomNavigation)
         bottomNavigation.add(MeowBottomNavigation.Model(1, R.drawable.ic_explore))
@@ -26,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigation.setOnClickMenuListener({ model ->
             if (model.id === 1){
-                val fragment = LevelsFragment()
+                val fragment = StoriesFragment()
                 addFragment(fragment)
             }
 
@@ -47,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         content = findViewById(R.id.frame_container)
         val fragment = LevelsFragment()
         addFragment(fragment)
+
     }
 
     private fun addFragment(fragment: Fragment) {
