@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+        android:layout_height="match_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
 android:background="@drawable/bcg"
@@ -20,7 +20,7 @@ android:background="@drawable/bcg"
                 android:columnCount="2"
                 android:padding="6dp"
 
-                tools:context=".materialdesign.CardViewActivity" tools:targetApi="ice_cream_sandwich">
+                tools:context=".materialdesign.CardViewActivity">
 
 
             <androidx.cardview.widget.CardView

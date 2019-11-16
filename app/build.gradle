@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+
+
+apply plugin: "org.jetbrains.kotlin.kapt"
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -14,6 +18,14 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -38,6 +50,13 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.1.0-alpha02'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0-beta01'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    kapt 'com.jakewharton:butterknife-compiler:10.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    //SLider
+    compile ('com.github.JakeWharton:ViewPagerIndicator:2.4.1')  {
+        exclude group: 'com.android.support'
+        exclude module: 'appcompat-v7'
+        exclude module: 'support-v4'
+    }
 }
