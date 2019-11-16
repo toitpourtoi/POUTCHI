@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+android:background="@drawable/bcg"
+
+>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+        <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:padding="6dp"
+
+                tools:context=".materialdesign.CardViewActivity">
+
+
+            <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp"
+                    android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#651FFF"
+                        android:padding="16dp">
+
+
+                    <ImageView
+                            android:id="@+id/image_card_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon1"/>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/image_card_two"
+                            android:orientation="horizontal">
+
+                        <com.google.android.material.button.MaterialButton
+                                style="@style/Widget.MaterialComponents.Button.Icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="#FFF200"
+
+                                android:text="The antway" android:fontFamily="sans-serif-black"
+                                android:textSize="14sp" android:typeface="serif"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp"
+                    android:foreground="?attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#C6FF00"
+                        android:padding="16dp">
+
+                    <ImageView
+                            android:id="@+id/image_card_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon2"/>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton
+                                style="@style/Widget.MaterialComponents.Button.Icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="#FFF200"
+
+                                android:text="The wicked ball" android:fontFamily="sans-serif-black"
+                                android:textSize="14sp" android:typeface="serif"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp"
+                    android:foreground="?attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#CAEED9"
+                        android:padding="16dp">
+
+                    <ImageView
+                            android:id="@+id/image_card_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon3"/>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton
+                                style="@style/Widget.MaterialComponents.Button.Icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="#FFF200"
+
+                                android:text="Puchi" android:fontFamily="sans-serif-black"
+                                android:textSize="14sp" android:typeface="serif"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp"
+                    android:foreground="?attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#ADFF1744"
+                        android:padding="16dp">
+
+                    <ImageView
+                            android:id="@+id/image_card_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon4"/>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        <com.google.android.material.button.MaterialButton
+                                style="@style/Widget.MaterialComponents.Button.Icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="#FFF200"
+
+                                android:text="The antway" android:fontFamily="sans-serif-black"
+                                android:textSize="14sp" android:typeface="serif"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </ScrollView>
+    <Button
+            android:text="Now it's your turn , create your own comic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button2" android:layout_marginBottom="683dp"
+            android:layout_alignBottom="@+id/null" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="6dp" android:layout_marginTop="522dp" android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" android:layout_marginStart="8dp"/>
+</RelativeLayout>

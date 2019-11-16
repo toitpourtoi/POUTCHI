@@ -12,7 +12,11 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             app:mbn_backgroundBottomColor="#ffffff"
+=======
+            app:mbn_backgroundBottomColor="#FFFFFF"
+>>>>>>> fdd5d8f872ae826c4ab010c559633db2953915b8
             app:mbn_countBackgroundColor="#ff6f00"
             app:mbn_countTextColor="#ffffff"
             app:mbn_defaultIconColor="#90a4ae"
@@ -22,4 +26,21 @@
             android:id="@+id/bottomNavigation" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
+<<<<<<< HEAD
+=======
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ic_looks_one_black_24dp"
+            tools:layout_editor_absoluteY="112dp" tools:layout_editor_absoluteX="63dp" android:id="@+id/imageButton4"
+            android:background="#00FFFFFF"/>
+    <TextView
+            android:text="Start your Journey With puchy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp" android:textSize="24sp"
+            android:textColor="#FFFFFF" android:textStyle="bold|italic"/>
+
+>>>>>>> fdd5d8f872ae826c4ab010c559633db2953915b8
 </androidx.constraintlayout.widget.ConstraintLayout>
