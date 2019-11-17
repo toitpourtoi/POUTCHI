@@ -4,10 +4,10 @@ Our idea consists of creating an educational and gaming platform  which sensitiz
 # Features
 This application provides a lot of features that can be classifed into two categories:
 1. Raising kid's awareness
-..* Read a serie of comics.
-..* Make choices and edit either existing comics or create new ones in order to evaluate the kid's comprehension.
+ ..*Read a serie of comics.
+ ..*Make choices and edit either existing comics or create new ones in order to evaluate the kid's comprehension.
 2. Attract his attention to keep him using the application
-..* In order to keep the kid using the application and motivate him to continue reading and creating content we use a list of Top 10 players which is shared with all the users. This list is based on users rating on the shared comics.
+ ..* In order to keep the kid using the application and motivate him to continue reading and creating content we use a list of Top 10 players which is shared with all the users. This list is based on users rating on the shared comics.
 PS:Before shring content with the community an automatique verification is made using Computer Visiong and Text mining.
 
 # Who's PUCHY
