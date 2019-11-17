@@ -11,15 +11,18 @@ This application provides a lot of features that can be classifed into two categ
 PS:Before shring content with the community an automatique verification is made using Computer Visiong and Text mining.
 
 # Who's PUCHY
+PUCHY is our comics character 
+
+
 # PUCHY's avantages
 
 * Protect kids from cyber security attacks.
 * Help children find solutions of an attack with drawing comics
-* Make children aware of CS situations 
-
-# Desadvantages
+* Make children aware of Cyber Security situations 
 
 # Targeted audience
+This application is for kids between 5 and 15 years old. According a study "Timothy Brittan, Hamid Jahankhani , John McCarthy. An Examination into the Effect of Early Education on Cyber Security Awareness Within the U.K. Cyber Criminology pp 291-306" One third of internet users are under the age of 18 with an average 20 h per week.
+
 
 
 
