@@ -3,8 +3,8 @@ Our idea consists of creating an educational and gaming platform  which sensitiz
 
 # Features
 This application provides a lot of features that can be classifed into two categories:
-..1. Raising kid's awareness
-..2. Attract his attention to keep him using the application
+1. Raising kid's awareness
+2. Attract his attention to keep him using the application
 # Who's POUTCHY 
 # Avantages of POUTCHY
 # Desadvantages
