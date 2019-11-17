@@ -11,7 +11,7 @@ This application provides a lot of features that can be classifed into two categ
 PS:Before shring content with the community an automatique verification is made using Computer Visiong and Text mining.
 
 # Who's PUCHY
-PUCHY is our comics character who goes into troubles  
+PUCHY is our comics character who goes into troubles and he will get some help from his father or friends.
 ![alt text](https://github.com/toitpourtoi/POUTCHI/blob/master/app/src/main/res/drawable/PUCHY.PNG
  "Logo Title Text 1")
 
@@ -26,6 +26,10 @@ PUCHY is our comics character who goes into troubles
 # Targeted audience
 This application is for kids between 5 and 15 years old. According a study "Timothy Brittan, Hamid Jahankhani , John McCarthy. An Examination into the Effect of Early Education on Cyber Security Awareness Within the U.K. Cyber Criminology pp 291-306" One third of internet users are under the age of 18 with an average 20 h per week.
 
+# Perspectives:
+* Integrate voice recognition
+* Integrate text mining and Computer vision
+* Improve the UX/UI
 
 
 
