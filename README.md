@@ -11,7 +11,10 @@ This application provides a lot of features that can be classifed into two categ
 PS:Before shring content with the community an automatique verification is made using Computer Visiong and Text mining.
 
 # Who's PUCHY
-PUCHY is our comics character 
+PUCHY is our comics character who goes into troubles  
+![alt text](https://github.com/toitpourtoi/POUTCHI/blob/master/app/src/main/res/drawable/PUCHY.PNG
+ "Logo Title Text 1")
+
 
 
 # PUCHY's avantages
